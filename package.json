@@ -1,6 +1,6 @@
 {
   "name": "ababel",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Babel wrapper to speed up compiling by caching results.",
   "main": "lib",
   "scripts": {
