@@ -1,6 +1,6 @@
 {
   "name": "ababel",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Babel wrapper to seep up compiling by caching results.",
   "main": "lib",
   "scripts": {

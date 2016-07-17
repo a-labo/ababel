@@ -5,13 +5,13 @@
 'use strict'
 
 const { indexJsBud } = require('ape-tmpl')
-const { description, name } = require('../package.json')
+const pkg = require('../package.json')
 
-module.exports = indexJsBud({
-  desc: description,
-  module: name,
-  dirname: __dirname
-})
+module.exports = {
+  force: true,
+  mode: '444',
+  data: { pkg }
+}
 
 if (!module.parent) {
   require('coz').render(__filename)
