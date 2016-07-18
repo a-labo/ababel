@@ -1,7 +1,7 @@
 {
   "name": "ababel",
-  "version": "1.0.6",
-  "description": "Babel wrapper to speed up compiling by caching results.",
+  "version": "1.0.7",
+  "description": "Compile with babel only when file changed from last time.",
   "main": "lib",
   "scripts": {
     "test": "./ci/test.js",
@@ -23,7 +23,7 @@
   "homepage": "https://github.com/a-labo/ababel#readme",
   "dependencies": {
     "aglob": "^1.0.1",
-    "akv": "^1.0.11",
+    "akv": "^1.0.14",
     "asfs": "^1.0.5",
     "babel-core": "^6.10.4",
     "co": "^4.6.0",
@@ -43,7 +43,7 @@
     "ape-updating": "^4.0.4",
     "babel-preset-es2015": "^6.9.0",
     "babel-preset-react": "^6.11.1",
-    "coz": "^6.0.6",
+    "coz": "^6.0.9",
     "filedel": "^2.0.2",
     "injectmock": "^2.0.0"
   },
