@@ -114,6 +114,8 @@ This software is released under the [MIT License](https://github.com/a-labo/abab
 Links
 ------
 
++ [Babel][babel_url]
 
+[babel_url]: https://babeljs.io/
 
 <!-- Links End -->
