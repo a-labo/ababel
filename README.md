@@ -101,7 +101,7 @@ co(function * () {
 Signature
 ---------
 
-`.ababel(pattern, options) -> Promise`
+`ababel(pattern, options) -> Promise`
 
 ### Params
 
