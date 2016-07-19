@@ -113,7 +113,7 @@ Signature
 | options.cwd | string | Current working directory path |
 | options.out | string | Output directory path |
 | options.minified | boolean | Minified or not |
-| options.reflects | string[] | Reflects |
+| options.reflects | string[] | File patterns to reflects changes |
 
 
 

@@ -25,8 +25,7 @@ module.exports = readmeMdBud({
   vars: {
     get signature () {
       let comment = commentsInFile(require.resolve('./lib/ababel'))[ 0 ]
-      let desc = commentsInFile.describeFunction(comment)
-      return desc
+      return commentsInFile.describeFunction(comment)
     }
   }
 })
