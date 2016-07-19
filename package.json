@@ -1,6 +1,6 @@
 {
   "name": "ababel",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "Compile with babel only when file changed from last time.",
   "main": "lib",
   "scripts": {
@@ -24,7 +24,7 @@
   "dependencies": {
     "aglob": "^1.0.1",
     "akv": "^1.0.14",
-    "akv-status": "^1.0.3",
+    "akv-status": "^1.0.5",
     "asfs": "^1.0.5",
     "babel-core": "^6.10.4",
     "co": "^4.6.0",
