@@ -1,6 +1,6 @@
 {
   "name": "ababel",
-  "version": "1.0.14",
+  "version": "1.0.15",
   "description": "Compile with babel only when file changed from last time.",
   "main": "lib",
   "scripts": {
@@ -34,6 +34,7 @@
   },
   "devDependencies": {
     "ape-covering": "^3.0.3",
+    "ape-doc": "^2.0.4",
     "ape-formatting": "^1.0.2",
     "ape-releasing": "^4.0.1",
     "ape-reporting": "^3.0.1",

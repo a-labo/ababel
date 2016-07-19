@@ -5,6 +5,7 @@
 'use strict'
 
 const { readmeMdBud } = require('ape-tmpl')
+const { commentsInFile } = require('ape-doc')
 const pkg = require('./package.json')
 
 module.exports = readmeMdBud({
@@ -21,7 +22,13 @@ module.exports = readmeMdBud({
   },
   overview: 'doc/overview.md',
   links: require('./doc/links'),
-  vars: {}
+  vars: {
+    get signature () {
+      let comment = commentsInFile(require.resolve('./lib/ababel'))[ 0 ]
+      let desc = commentsInFile.describeFunction(comment)
+      return desc
+    }
+  }
 })
 
 if (!module.parent) {

@@ -94,6 +94,31 @@ co(function * () {
 
 <!-- Section from "doc/guides/02.Usage.md.hbs" End -->
 
+<!-- Section from "doc/guides/03.Signature.md.hbs" Start -->
+
+<a name="section-doc-guides-03-signature-md"></a>
+
+Signature
+---------
+
+`.ababel(pattern, options) -> Promise`
+
+### Params
+
+| Name | Type | Description |
+| ----- | --- | -------- |
+| pattern | string | Glob file name pattern |
+| options | Object | Optional settings |
+| options.status | string | Status file path |
+| options.cwd | string | Current working directory path |
+| options.out | string | Output directory path |
+| options.minified | boolean | Minified or not |
+| options.reflects | string[] | Reflects |
+
+
+
+<!-- Section from "doc/guides/03.Signature.md.hbs" End -->
+
 
 <!-- Sections Start -->
 
