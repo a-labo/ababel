@@ -28,12 +28,12 @@
     "asfs": "^1.0.5",
     "babel-core": "^6.11.4",
     "co": "^4.6.0",
-    "convert-source-map": "^1.2.0",
+    "convert-source-map": "^1.3.0",
     "defaults": "^1.0.3",
     "writeout": "^2.0.6"
   },
   "devDependencies": {
-    "amocha": "^1.0.6",
+    "amocha": "^1.0.8",
     "ape-doc": "^2.0.4",
     "ape-formatting": "^1.0.2",
     "ape-releasing": "^4.0.1",
