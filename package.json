@@ -34,7 +34,7 @@
     "writeout": "^2.0.6"
   },
   "devDependencies": {
-    "amocha": "^1.0.8",
+    "amocha": "^1.0.9",
     "ape-doc": "^2.0.4",
     "ape-formatting": "^1.0.2",
     "ape-releasing": "^4.0.1",
@@ -44,6 +44,7 @@
     "ape-updating": "^4.0.4",
     "babel-preset-es2015": "^6.9.0",
     "babel-preset-react": "^6.11.1",
+    "babelify": "^7.3.0",
     "coz": "^6.0.14",
     "filedel": "^2.0.2",
     "injectmock": "^2.0.0"

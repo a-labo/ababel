@@ -1,17 +1,17 @@
 /**
- * Register babel
- * @function register
+ * Browserify transform
+ * @function transform
  * @param {Object} options
  */
 'use strict'
 
 const defaults = require('defaults')
-const babelRegister = require('babel-register')
+const babelify = require('babelify')
 const { DEFAULT_PRESET, DEFAULT_EXT } = require('./lib/constants')
 
-/** @lends register */
-function register (options = {}) {
-  babelRegister(defaults(options, {
+/** @lends transform */
+function transform (options = {}) {
+  return babelify.configure(defaults(options, {
     extensions: DEFAULT_EXT.split(','),
     compact: false,
     babelrc: false,
@@ -20,4 +20,4 @@ function register (options = {}) {
   }))
 }
 
-module.exports = register
+module.exports = transform
