@@ -1,6 +1,6 @@
 {
   "name": "ababel",
-  "version": "1.0.26",
+  "version": "1.1.0",
   "description": "Compile with babel only when file changed from last time.",
   "main": "lib",
   "scripts": {
@@ -22,31 +22,31 @@
   },
   "homepage": "https://github.com/a-labo/ababel#readme",
   "dependencies": {
-    "aglob": "^1.0.1",
-    "akv": "^1.0.14",
+    "aglob": "^1.0.2",
+    "akv": "^1.0.20",
     "akv-status": "^1.0.5",
+    "asenv": "^1.0.6",
     "asfs": "^1.0.5",
-    "babel-core": "^6.11.4",
+    "babel-core": "^6.13.2",
     "babel-register": "^6.11.6",
     "babelify": "^7.3.0",
     "co": "^4.6.0",
     "convert-source-map": "^1.3.0",
-    "defaults": "^1.0.3",
-    "writeout": "^2.0.6"
+    "writeout": "^2.0.7"
   },
   "devDependencies": {
-    "amocha": "^1.0.9",
+    "amocha": "^1.0.13",
     "ape-doc": "^2.0.4",
     "ape-formatting": "^1.0.2",
-    "ape-releasing": "^4.0.1",
-    "ape-reporting": "^3.0.1",
-    "ape-tasking": "^4.0.7",
-    "ape-tmpl": "^5.0.14",
-    "ape-updating": "^4.0.4",
-    "babel-preset-es2015": "^6.9.0",
+    "ape-releasing": "^4.0.4",
+    "ape-reporting": "^3.0.2",
+    "ape-tasking": "^4.0.8",
+    "ape-tmpl": "^5.0.15",
+    "ape-updating": "^4.0.5",
+    "babel-preset-es2015": "^6.13.2",
     "babel-preset-react": "^6.11.1",
-    "coz": "^6.0.14",
-    "filedel": "^2.0.2",
+    "coz": "^6.0.17",
+    "filedel": "^2.0.4",
     "injectmock": "^2.0.0"
   },
   "engines": {
