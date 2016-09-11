@@ -4,8 +4,8 @@
   "description": "Compile with babel only when file changed from last time.",
   "main": "lib",
   "scripts": {
-    "test": "./ci/test.js",
-    "prepublish": "./ci/build.js"
+    "test": "node ./ci/test.js",
+    "prepublish": "node ./ci/build.js"
   },
   "repository": "a-labo/ababel",
   "keywords": [
@@ -28,6 +28,7 @@
     "asenv": "^1.0.6",
     "asfs": "^1.0.5",
     "babel-core": "^6.13.2",
+    "babel-plugin-transform-runtime": "^6.15.0",
     "babel-register": "^6.11.6",
     "babelify": "^7.3.0",
     "co": "^4.6.0",
