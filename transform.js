@@ -6,18 +6,18 @@
 'use strict'
 
 const babelify = require('babelify')
-const { DEFAULT_PRESET, DEFAULT_EXT } = require('./lib/constants')
+const constants = require('./shim/node/constants')
 
 /** @lends transform */
-function transform (options = {}) {
+function transform (options) {
   return babelify.configure(
     Object.assign({
-      extensions: DEFAULT_EXT.split(','),
+      extensions: constants.DEFAULT_EXT.split(','),
       compact: false,
       babelrc: false,
       sourceRoot: process.cwd(),
-      presets: DEFAULT_PRESET.split(',')
-    }, options)
+      presets: constants.DEFAULT_PRESET.split(',')
+    }, options || {})
   )
 }
 

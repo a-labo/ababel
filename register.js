@@ -6,18 +6,18 @@
 'use strict'
 
 const babelRegister = require('babel-register')
-const { DEFAULT_PRESET, DEFAULT_EXT } = require('./lib/constants')
+const constants = require('./shim/node/constants')
 
 /** @lends register */
-function register (options = {}) {
+function register (options) {
   babelRegister(
     Object.assign({
-      extensions: DEFAULT_EXT.split(','),
+      extensions: constants.DEFAULT_EXT.split(','),
       compact: false,
       babelrc: false,
       sourceRoot: process.cwd(),
-      presets: DEFAULT_PRESET.split(',')
-    }, options)
+      presets: constants.DEFAULT_PRESET.split(',')
+    }, options || {})
   )
 }
 
