@@ -1,6 +1,6 @@
 {
   "name": "ababel",
-  "version": "1.1.9",
+  "version": "1.1.10",
   "description": "Compile with babel only when file changed from last time.",
   "main": "shim/node",
   "browser": false,
@@ -33,8 +33,9 @@
     "babel-register": "^6.11.6",
     "babelify": "^7.3.0",
     "co": "^4.6.0",
-    "filedel": "^2.0.5",
     "convert-source-map": "^1.3.0",
+    "crc": "^3.4.0",
+    "filedel": "^2.0.5",
     "writeout": "^2.1.0"
   },
   "devDependencies": {
