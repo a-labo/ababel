@@ -6,7 +6,7 @@
 'use strict'
 
 const babelRegister = require('babel-register')
-const constants = require('./shim/node/constants')
+const constants = require('./lib/constants')
 
 /** @lends register */
 function register (options) {

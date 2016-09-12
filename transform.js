@@ -6,7 +6,7 @@
 'use strict'
 
 const babelify = require('babelify')
-const constants = require('./shim/node/constants')
+const constants = require('./lib/constants')
 
 /** @lends transform */
 function transform (options) {
