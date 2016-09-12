@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * Compile to browser source
+ * Prepare shims
  */
 
 'use strict'
