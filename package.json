@@ -1,6 +1,6 @@
 {
   "name": "ababel",
-  "version": "1.1.10",
+  "version": "1.1.11",
   "description": "Compile with babel only when file changed from last time.",
   "main": "shim/node",
   "browser": false,
@@ -25,7 +25,7 @@
   "dependencies": {
     "aglob": "^1.1.1",
     "akv": "^1.1.0",
-    "akv-status": "^1.0.6",
+    "akv-status": "^1.0.8",
     "asenv": "^1.1.0",
     "asfs": "^1.1.1",
     "babel-core": "^6.13.2",
