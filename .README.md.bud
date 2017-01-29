@@ -14,9 +14,6 @@ module.exports = readmeMdBud({
   sections: 'doc/guides/*.md.hbs',
   badges: {
     travis: true,
-    codeclimate: true,
-    codeclimateCoverage: true,
-    gemnasium: false,
     npm: true,
     standard: true
   },
