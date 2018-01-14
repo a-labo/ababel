@@ -6,30 +6,29 @@
 
 const ababel = require('../lib/ababel.js')
 const assert = require('assert')
-const co = require('co')
 
 describe('ababel', function () {
   this.timeout(3000)
 
-  before(() => co(function * () {
+  before(async () => {
 
-  }))
+  })
 
-  after(() => co(function * () {
+  after(async () => {
 
-  }))
+  })
 
-  it('Ababel', () => co(function * () {
-    yield ababel(
+  it('Ababel', async () => {
+    await ababel(
       'mock-react-jsx/*.jsx',
       {
         cwd: `${__dirname}/../misc/mocks`,
         out: `${__dirname}/../tmp/testing-react-compiled`,
-        presets: [ 'es2015', 'react' ],
-        ext: [ '.jsx' ]
+        presets: ['es2015', 'react'],
+        ext: ['.jsx']
       }
     )
-  }))
+  })
 })
 
 /* global describe, before, after, it */
