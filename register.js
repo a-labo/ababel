@@ -5,7 +5,7 @@
  */
 'use strict'
 
-const babelRegister = require('babel-register')
+const babelRegister = require('@babel/register')
 const constants = require('./lib/constants')
 
 /** @lends register */

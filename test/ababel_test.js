@@ -24,7 +24,7 @@ describe('ababel', function () {
       {
         cwd: `${__dirname}/../misc/mocks`,
         out: `${__dirname}/../tmp/testing-react-compiled`,
-        presets: ['es2015', 'react'],
+        presets: ['@babel/preset-react'],
         ext: ['.jsx']
       }
     )
