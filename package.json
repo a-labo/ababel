@@ -1,6 +1,6 @@
 {
   "name": "ababel",
-  "version": "4.0.4",
+  "version": "4.0.5",
   "description": "Compile with babel only when file changed from last time.",
   "main": "lib",
   "browser": false,
