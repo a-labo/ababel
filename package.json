@@ -1,6 +1,6 @@
 {
   "name": "ababel",
-  "version": "5.0.2",
+  "version": "5.0.3",
   "description": "Compile with babel only when file changed from last time.",
   "main": "lib",
   "browser": false,
@@ -29,7 +29,7 @@
     "aglob": "^3.0.1",
     "akv": "^2.0.0",
     "akv-status": "^2.0.0",
-    "asenv": "^2.0.2",
+    "asenv": "^3.0.0",
     "asfs": "^2.0.3",
     "convert-source-map": "^1.5.1",
     "filedel": "^4.0.0",
