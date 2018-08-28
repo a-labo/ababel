@@ -23,9 +23,9 @@
   },
   "homepage": "https://github.com/a-labo/ababel#readme",
   "dependencies": {
-    "@babel/core": "^7.0.0-rc.2",
-    "@babel/plugin-transform-runtime": "^7.0.0-rc.2",
-    "@babel/preset-env": "^7.0.0-rc.2",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-transform-runtime": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
     "aglob": "^3.0.1",
     "akv": "^2.0.0",
     "akv-status": "^2.0.0",
