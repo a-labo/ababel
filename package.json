@@ -1,6 +1,6 @@
 {
   "name": "ababel",
-  "version": "5.0.12",
+  "version": "5.0.13",
   "description": "Compile with babel only when file changed from last time.",
   "main": "lib",
   "browser": false,
@@ -33,18 +33,18 @@
     "asfs": "^2.2.1",
     "convert-source-map": "^1.6.0",
     "filedel": "^4.0.2",
-    "writeout": "^2.2.3"
+    "writeout": "^2.2.4"
   },
   "devDependencies": {
     "@babel/preset-react": "^7.0.0",
-    "amocha": "^5.0.1",
+    "amocha": "^5.0.2",
     "ape-doc": "^2.0.4",
     "ape-formatting": "^2.0.1",
     "ape-releasing": "^5.0.7",
     "ape-tasking": "^4.0.12",
     "ape-tmpl": "^6.0.14",
     "ape-updating": "^5.0.3",
-    "coz": "^7.0.17",
+    "coz": "^7.0.18",
     "injectmock": "^2.0.0"
   },
   "engines": {
