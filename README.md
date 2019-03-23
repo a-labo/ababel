@@ -106,7 +106,6 @@ Signature
 | ----- | --- | -------- |
 | pattern | string | Glob file name pattern |
 | options | Object | Optional settings |
-| options.status | string | Status file path |
 | options.cwd | string | Current working directory path |
 | options.out | string | Output directory path |
 | options.minified | boolean | Minified or not |
