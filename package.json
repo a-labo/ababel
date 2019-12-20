@@ -1,6 +1,6 @@
 {
   "name": "ababel",
-  "version": "6.0.3",
+  "version": "6.1.0",
   "description": "Compile with babel only when file changed from last time.",
   "main": "lib",
   "browser": false,
@@ -23,18 +23,18 @@
   },
   "homepage": "https://github.com/a-labo/ababel#readme",
   "dependencies": {
-    "@babel/core": "^7.5.0",
-    "@babel/plugin-transform-runtime": "^7.5.0",
-    "@babel/preset-env": "^7.5.0",
+    "@babel/core": "^7.7.7",
+    "@babel/plugin-transform-runtime": "^7.7.6",
+    "@babel/preset-env": "^7.7.7",
     "aglob": "^3.0.2",
     "asenv": "^3.0.2",
     "asfs": "^2.2.3",
-    "convert-source-map": "^1.6.0",
+    "convert-source-map": "^1.7.0",
     "filedel": "^4.1.1",
     "writeout": "^2.2.4"
   },
   "devDependencies": {
-    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-react": "^7.7.4",
     "amocha": "^5.0.2",
     "ape-doc": "^2.0.4",
     "ape-formatting": "^2.0.2",
