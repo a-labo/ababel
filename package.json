@@ -23,9 +23,9 @@
   },
   "homepage": "https://github.com/a-labo/ababel#readme",
   "dependencies": {
-    "@babel/core": "^7.7.7",
-    "@babel/plugin-transform-runtime": "^7.7.6",
-    "@babel/preset-env": "^7.7.7",
+    "@babel/core": "^7.8.0",
+    "@babel/plugin-transform-runtime": "^7.8.0",
+    "@babel/preset-env": "^7.8.0",
     "aglob": "^3.0.2",
     "asenv": "^3.0.2",
     "asfs": "^2.2.3",
@@ -34,8 +34,8 @@
     "writeout": "^2.2.4"
   },
   "devDependencies": {
-    "@babel/preset-react": "^7.7.4",
-    "amocha": "^5.0.2",
+    "@babel/preset-react": "^7.8.0",
+    "amocha": "^6.0.0",
     "ape-doc": "^2.0.4",
     "ape-formatting": "^2.0.2",
     "ape-releasing": "^5.0.7",
