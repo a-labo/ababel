@@ -1,6 +1,6 @@
 {
   "name": "ababel",
-  "version": "6.1.1",
+  "version": "6.1.2",
   "description": "Compile with babel only when file changed from last time.",
   "main": "lib",
   "browser": false,
@@ -25,7 +25,7 @@
   "dependencies": {
     "@babel/core": "^7.8.0",
     "@babel/plugin-transform-runtime": "^7.8.0",
-    "@babel/preset-env": "^7.8.0",
+    "@babel/preset-env": "^7.8.2",
     "aglob": "^3.0.2",
     "asenv": "^3.0.2",
     "asfs": "^2.2.3",
